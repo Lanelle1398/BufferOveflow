@@ -90,5 +90,8 @@ Then I ‘ls’ to make sure envexec.sh and vuln.c were added.
 
 
 
+Clean up our bash environment with this command. Strip it of every possible setting. 
+<p> <br>The gdb is run with the command vuln.<br>
+<br>./envexec.sh -d vuln<br> </p>
 
 
