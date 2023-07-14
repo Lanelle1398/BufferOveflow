@@ -109,9 +109,9 @@ Clean up our bash environment with this command. Strip it of every possible sett
 <br> gdb vuln <br>
 <br> Disambling my code <br><p>
 <img width="386" alt="image" src="https://github.com/Lanelle1398/BufferOveflow/assets/88471126/74e5ba24-f812-47b6-b0a2-eef920b29a0f"><p> 
-<p><br>Let’s try overflowing the program
-Print 512 As in the program. <br>  
-<br>‘\x41’ is A in hexadecimal<>br <p>
+<p><br>Let’s try overflowing the program.<br>
+<br> Print 512 As in the program. <br>  
+<br> '\x41’ is A in hexadecimal<>br <p>
 <img width="468" alt="image" src="https://github.com/Lanelle1398/BufferOveflow/assets/88471126/2f7295bd-bcba-4041-a4be-513a89108f39">
 <p></p> <br> We overwrite eip, ebp  (return pointer, base pointer)<br>
 <br>Show 200x characters. Take the address of the stack pointer and go back 550 before that address.<br> <p></p>
