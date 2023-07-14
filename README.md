@@ -22,3 +22,6 @@ The maximum core dump size is enforced by ulimit.
 If ulimit is zero, core dump is disabled entirely. 
 If you give core dump a limit and the core dump generated is more than the limit, the data would be truncated and you might not get the traces.
 So, it is best to set core dump size as unlimited.
+
+<img width="468" alt="image" src="https://github.com/Lanelle1398/BufferOveflow/assets/88471126/f3dd8a20-822f-4b99-b63b-150308a476fb">
+
