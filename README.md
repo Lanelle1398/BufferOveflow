@@ -86,12 +86,24 @@ Then I ‘ls’ to make sure envexec.sh and vuln.c were added.
 <br> This program takes a character array with a max size of 500 bytes, called buffer.<br>
 <br> The string that the user enters into the terminal (argv[1]) is copied and entered into the buffer. <br>
 <br> If argv[1] is greater than 500 bytes, it will overflow the buffer. <bt>
-<br> Strcpy is vulnerable, because strcpy  by default will continue copying values until it hits a null pointer.<br>  </p>
-
-
+<br> Strcpy is vulnerable, because strcpy  by default will continue copying values until it hits a null pointer.<br>  <p>
 
 Clean up our bash environment with this command. Strip it of every possible setting. 
 <p> <br>The gdb is run with the command vuln.<br>
 <br>./envexec.sh -d vuln<br> </p>
+
+	
+<img width="468" alt="image" src="https://github.com/Lanelle1398/BufferOveflow/assets/88471126/2d712bfa-4a91-4880-8954-2c3e6193648d">
+
+<p> <br>Run ‘vuln’ program in gdb<br>
+<br> gdb vuln <br>
+
+<br> Disambling my code <br><p>
+
+
+
+
+
+
 
 
