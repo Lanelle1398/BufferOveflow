@@ -125,6 +125,8 @@ Print 512 As in the program. <br>
 
 <br>This fills up the buffer, overwrites the alignment space, and overwrites the caller’s ebp and return address with the values “ \x51\x51” . <br><p>
 
+<img width="589" alt="image" src="https://github.com/Lanelle1398/BufferOveflow/assets/88471126/2f3a2bc3-a3ad-45b2-b3c7-2ead47536f73">
+<img width="468" alt="image" src="https://github.com/Lanelle1398/BufferOveflow/assets/88471126/9fc56c3c-8a56-4c31-a5e3-998500a3cfc5">
 
 
 
