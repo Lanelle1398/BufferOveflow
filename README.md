@@ -1,4 +1,4 @@
-# BufferOveflow
+# Buffer Oveflow Attack
 
 The first step is to disable memory randomization:
 cat /proc/sys/kernel/randomize_va_space
