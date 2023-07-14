@@ -143,6 +143,11 @@ Print 512 As in the program. <br>
 <img width="450" alt="image" src="https://github.com/Lanelle1398/BufferOveflow/assets/88471126/9f910af5-e34a-470d-8684-5730bd67e5c6">
 <br> For a more advanced attack in the future,  I want to run a privilege escalation attack that allows me that allows a non-root user to gain root user privileges.<br>
 
+<br> Sources:<br>
+<br> Buffer Overflow tutorial <br> 
+<br> Buffer Overflow attacks explained<br>
+
+
 
 
 
