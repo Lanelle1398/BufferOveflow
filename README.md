@@ -132,6 +132,15 @@ Print 512 As in the program. <br>
 <br> <img width="426" alt="image" src="https://github.com/Lanelle1398/BufferOveflow/assets/88471126/aacca2c2-8db8-4d70-a7ff-3f117ca0d441"> <br>
 </p>
 
+<p>
+<br>Next, we pick an address in the middle of our nop sled.  (The address I chose is highlighted in yellow).<br>
+<br>Then, we somewhat reverse the memory address; written in little endian. It becomes: bafaffbf<br>
+<br>Then, we make the return address point back to our buffer.<br>
+<br>Within the buffer, we will be using a NOP sled “ \x90”<br>
+<br>We will pass the value \x90 and we will keep sliding it along (padding of 425 bytes) until it reaches our shellcode to run another shell bin/zsh <br>
+<br>(nop sled padding+ payload + little endian address)<br>
+ <br> We then get root access to the program as shown below. <br> </p>
+
 
 
 
