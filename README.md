@@ -140,7 +140,8 @@ Print 512 As in the program. <br>
 <br>We will pass the value \x90 and we will keep sliding it along (padding of 425 bytes) until it reaches our shellcode to run another shell bin/zsh <br>
 <br>(nop sled padding+ payload + little endian address)<br>
  <br> We then get root access to the program as shown below. <br> </p>
-
+<img width="450" alt="image" src="https://github.com/Lanelle1398/BufferOveflow/assets/88471126/9f910af5-e34a-470d-8684-5730bd67e5c6">
+<br> For a more advanced attack in the future,  I want to run a privilege escalation attack that allows me that allows a non-root user to gain root user privileges.<br>
 
 
 
