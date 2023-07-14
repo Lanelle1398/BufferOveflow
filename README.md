@@ -92,18 +92,16 @@ Then I ‘ls’ to make sure envexec.sh and vuln.c were added.
 <img width="396" alt="image" src="https://github.com/Lanelle1398/BufferOveflow/assets/88471126/02fe9fb1-7d94-43bb-9e2e-6856cd63e756">
 
 <p> <br> Now it’s time to execute the buffer overflow:<br>
-<br>I compiler this with gcc and disable stack protector. <br>
+<br>I compile this with gcc and disable stack protector. <br>
 <br>gcc -z execstack -fno-stack-protector -mpreferred-stack-boundary=2 -g vuln.c -o vuln <br>
 <br>Doing this removes the safeguards that gcc has to prevent buffer overflow attacks. <br> 
 <br>Stack protector works by pushing a canary (a random integer) on the stack right after the function pointer has returned.<br>
 <br>The canary value is checked before the system returns and if it has changed, the system is aborted. This is done rather than continuing and returning to wherever the attacker wants the system to point to.<br> </p>
 
 
-
 Clean up our bash environment with this command. Strip it of every possible setting. 
 <p> <br>The gdb is run with the command vuln.<br>
 <br>./envexec.sh -d vuln<br> </p>
-
 	
 <img width="468" alt="image" src="https://github.com/Lanelle1398/BufferOveflow/assets/88471126/2d712bfa-4a91-4880-8954-2c3e6193648d">
 
@@ -111,6 +109,10 @@ Clean up our bash environment with this command. Strip it of every possible sett
 <br> gdb vuln <br>
 
 <br> Disambling my code <br><p>
+<img width="386" alt="image" src="https://github.com/Lanelle1398/BufferOveflow/assets/88471126/74e5ba24-f812-47b6-b0a2-eef920b29a0f">
+Let’s try overflowing the program
+Print 512 As in the program . 
+
 
 
 
