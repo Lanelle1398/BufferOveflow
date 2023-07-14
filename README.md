@@ -117,8 +117,16 @@ Print 512 As in the program. <br>
 <br>Show 200x characters. Take the address of the stack pointer and go back 550 before that address.<br> <p></p>
 <img width="468" alt="image" src="https://github.com/Lanelle1398/BufferOveflow/assets/88471126/1efaa8a0-9e14-493c-a205-e26f5b6305e7">
 
+<p> <br>For this exploit to work, we need to take control of the extended base pointer. <>br
 
-<br><>br
+<br> We take a Nop of 90. <br>
+<br> A Nop basically does padding: equivalent to saying go to next line, over and over again.<br>
+<br>Print 426 bytes of “\x90”, then execute bin/zsh, then pad with “\x51” 14 times.  <br>
+
+<br>This fills up the buffer, overwrites the alignment space, and overwrites the caller’s ebp and return address with the values “ \x51\x51” . <br><p>
+
+
+
 
 
 
