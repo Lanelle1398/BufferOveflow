@@ -144,8 +144,8 @@ Print 512 As in the program. <br>
 <br> For a more advanced attack in the future,  I want to run a privilege escalation attack that allows me that allows a non-root user to gain root user privileges.<br>
 
 <br> Sources:<br>
-<br> Buffer Overflow tutorial <br> 
-<br> Buffer Overflow attacks explained<br>
+<br> [Buffer Overflow tutorial] (https://youtu.be/eYrfWpkvMxA)<br> 
+<br> [Buffer Overflow attacks explained] (https://www.coengoedegebure.com/buffer-overflow-attacks-explained/)<br>
 
 
 
