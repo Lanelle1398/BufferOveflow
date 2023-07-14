@@ -128,10 +128,9 @@ Print 512 As in the program. <br>
 <img width="589" alt="image" src="https://github.com/Lanelle1398/BufferOveflow/assets/88471126/2f3a2bc3-a3ad-45b2-b3c7-2ead47536f73">
 <img width="468" alt="image" src="https://github.com/Lanelle1398/BufferOveflow/assets/88471126/9fc56c3c-8a56-4c31-a5e3-998500a3cfc5">
 
-
-
-
-
+<p> <br> We double check our memory. <br> 
+<br> <img width="426" alt="image" src="https://github.com/Lanelle1398/BufferOveflow/assets/88471126/aacca2c2-8db8-4d70-a7ff-3f117ca0d441"> <br>
+</p>
 
 
 
