@@ -64,12 +64,8 @@ else
   exec env - $env TERM=screen PWD=$PWD $prog "$@"
 fi
 ```
-Ctrl+shift+v to paste
-Ctrl+o
-File name to write: envexec.sh
-Chmod+x  envexec.sh will make the script executable
 
-Do the same for our vulnerable program, vuln.c 
+<p> Ctrl+shift+v to paste <br> Ctrl+o <br> File name to write: envexec.sh <br> <br> Chmod+x  envexec.sh will make the script executable <br> <br> Do the same for our vulnerable program, vuln.c  <br></p>
 
 ```
 #include <stdio.h>
