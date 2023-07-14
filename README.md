@@ -81,4 +81,14 @@ int main (int argc, char** argv)
 ```
 Then I ‘ls’ to make sure envexec.sh and vuln.c were added.
 
+<img width="342" alt="image" src="https://github.com/Lanelle1398/BufferOveflow/assets/88471126/26b0e0c4-02d1-403a-b68f-20f049a26560">
+Purpose of vuln.c:  
+This program takes a character array with a max size of 500 bytes, called buffer.
+The string that the user enters into the terminal (argv[1]) is copied and entered into the buffer.
+If argv[1] is greater than 500 bytes, it will overflow the buffer. 
+Strcpy is vulnerable, because strcpy  by default will continue copying values until it hits a null pointer.
+
+
+
+
 
